@@ -45,6 +45,7 @@ let currentMinutes = 25;
 let currentSeconds = 0;
 
 function selectorClick(minutes, seconds){
+    resetTimer()
     document.querySelector(".timer").textContent = `${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;  
     currentMinutes = minutes
     currentSeconds = seconds
