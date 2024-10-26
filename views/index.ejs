@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lofi Pomodoro</title>
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <div class="nav">
+        <span class="logo">lofi pomodoro</span>
+    </div>
+
+    <!-- main body  -->
+    <div class="container">
+
+        <div class="selectors">
+            <button onclick="selectorClick(25,0)" class="pomodoro">pomodoro</button>
+            <button onclick="selectorClick(5,0)" class="short">short break</button>
+            <button onclick="selectorClick(15,0)" class="long">long break</button>
+        </div>
+
+        <div class="timer">25:00</div>
+
+        <div class="options">
+            <button onclick="startTimer(25, 0)" class="start start-btn">start</button>
+            <button onclick="resetTimer()" class="reset">reset</button>
+            
+            <div class="bg-selector">
+                <select class="dropdown" id="imageSelector">
+                    <option value="">select background</option>
+                    <option value="images/city-view.jpg">city view</option>
+                    <option value="images/art-lake.png">art lake</option>
+                    <option value="images/cliff-edge.jpg">cliff edge</option>
+                    <!-- Add more options as needed -->
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4Zjli1P13J5mmSCD5iKAXK?utm_source=generator&theme=0" width="20%" height="5%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> -->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Space+Grotesk:wght@300..700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url('../images/art-lake.png');
+    color: white;
+    font-family: "Space Grotesk", sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+.nav{
+    position: absolute;
+    font-family: "Caveat", serif;
+    font-size: 2rem;
+    margin: 3%;
+}
+
+.footer{
+    position: absolute;
+    left: 10vw;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bg-selector{
+    display: inline;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1px solid rgb(255, 255, 255); /* Border color with transparency */
+    border-radius: 25px; /* Rounded corners */
+    background-color: rgba(0, 0, 0, 0.1); /* Transparent background */
+    color: rgb(255, 255, 255); /* Text color with slight transparency */
+    font-size: 1rem;
+    text-decoration: none;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    font-weight: 600 !important;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255); /* Slight background on hover */
+    color: rgba(0, 0, 0, 1); /* Full color on hover */
+    border-color: rgb(255, 255, 255); /* Darker border on hover */
+    cursor: pointer;
+}
+
+.timer{
+    font-size: 9rem;
+    font-weight: 600;
+}
+
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.dropdown {
+    background-color: rgba(0, 0, 0, 0.1); /* Transparent white */
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+    appearance: none; /* Removes default arrow */
+    outline: none; /* Removes outline on focus */
+    transition: background-color 0.3s, border-color 0.3s;
+    width: 200px; /* Adjust width as needed */
+    font-weight: 600 !important;
+}
+
+.dropdown:focus {
+    border-color: #ffffff; /* Change border color on focus */
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dropdown option {
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent white */
+    color: #333;
+}
+
+.dropdown option:hover {
+    background-color: rgba(51, 51, 51, 0.1); /* Hover effect for options */
+}
+
+.start-btn{
+    color: black;
+    background-color: white;
+}
+
+.start-btn:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+}
