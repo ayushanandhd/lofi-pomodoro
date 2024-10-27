@@ -17,7 +17,17 @@ body{
     position: absolute;
     font-family: "Caveat", serif;
     font-size: 2rem;
-    margin: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+iframe{
+    transform: translateY(10%);
 }
 
 .footer{
@@ -112,4 +122,22 @@ button:hover {
 .start-btn:hover{
     color: white;
     background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 700px) {
+    .nav{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    .timer{
+        font-size: 6rem;
+    }
+    button, .dropdown{
+        font-size: 0.6rem;
+        margin: 5px;
+    }
+    .dropdown{
+        width: 30vw;
+    }
 }
