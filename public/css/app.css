@@ -124,6 +124,15 @@ button:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
+.credit{
+    color: white;
+}
+
+.credit a{
+    color: white;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 700px) {
     .nav{
         display: none;
