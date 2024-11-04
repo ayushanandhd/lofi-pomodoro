@@ -1,2 +1,2 @@
 # lofi-pomodoro
-[visit](https://lofi-pomodoro.onrender.com/)
+[visit](https://lofi-pomodoro-wl3o.vercel.app/)
